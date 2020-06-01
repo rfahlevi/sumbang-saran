@@ -1,0 +1,216 @@
+html    {
+    position: relative;
+}
+
+/* Persetujuan Page */
+.persetujuan {
+    position: relative;
+}
+
+.persetujuan-kiri {
+    color: #204f8f;
+    position: relative;
+    opacity: 0;
+    transform: translateX(300px);
+    transition: 2s;
+}
+
+.persetujuan-kiri h2 {
+    margin-top: 13%;
+}
+
+.hitungmundur {
+    overflow: hidden;
+    width: 600px;
+    transform: translateX(20px);
+    z-index: 2;
+
+}
+
+.hitungmundur .box {
+    float: left;
+    width: 80px;
+    height: 70px;
+    border: 2px solid #204f8f;
+}
+
+.hitungmundur .box p {
+    text-align: center;
+    color: #204f8f;
+}
+
+.hitungmundur .box .satuan-angka {
+    font-size: 30px;
+    margin-top: -2px;
+    margin-bottom: -10px;
+}
+
+.hitungmundur .box .satuan-teks {
+    font-size: 16px;
+}
+
+.persetujuan-kanan {
+    color: #204f8f;
+    opacity: 0;
+    transform: translateX(-300px);
+    transition: 2s;
+}
+
+.persetujuan-kanan h4 {
+    margin-top: 15%;
+}
+
+.persetujuan-kanan a {
+    background-color: #204f8f;
+    border: 1px solid #204f8f;
+}
+
+
+.ketentuan  {
+    width: 500px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid #6c757d;
+    border-radius: 15px;
+    padding : 20px;
+}
+
+.ketentuan h5 {
+    font-style: italic;
+}
+
+
+.form-check small {
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+
+.ketentuan  {
+    width: 500px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid #204f8f;
+    border-radius: 15px;
+    padding : 20px;
+}
+
+.form-check small {
+    font-style: italic;
+    font-weight: 500;
+
+}
+
+/* Parallax Persetujuan Page */
+.persetujuan-kiri.showpersetujuan , .persetujuan-kanan.showpersetujuan {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
+/* Sumbang Saran Page */
+.animate {
+    opacity: 0;
+    transform: translateX(-500px);
+    transition: .5s;
+}
+
+.form-page form label {
+    font-weight: 500;
+}
+
+.form-page input, .form-page select, .form-page textarea {
+    border: 1px solid #b5b5b5;
+}
+.animate.show-form {
+    opacity: 1;
+    transform: translate(0,0);
+}
+
+
+/* ADMIN PAGE */
+    /* DASHBOARD */
+    /* Content */
+    .content .col-6 {
+        opacity: 0;
+        transition: 1.5s;
+    }
+
+    .content .col-6.show-content {
+        opacity: 1;
+    }
+    /* Content */
+    /* DASHBOARD */
+
+    /* JADWAL SUMBANG SARAN */
+    /* Content */
+
+    /* Content */
+    /* JADWAL SUMBANG SARAN */
+
+    /* KELOLA SUMBANG SARAN */
+    /* Top bar */
+    .topbar-ss .ubah-periode {
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    .table-sumbangsaran table thead tr th {
+        text-align: center;
+    }
+
+    .table-sumbangsaran table tbody tr td {
+        text-align: center;
+    }
+    /* Top bar */
+    /* KELOLA SUMBANG SARAN */
+
+    /* DATA KARYAWAN */
+    /* Top Bar */
+    .top-bardk .kelola-bagian {
+        font-weight: 600;
+        margin-top: 30px;
+        margin-left: -14px;
+    }
+
+    .top-bardk .kelola-ext {
+        font-weight: 600;
+        margin-top: 30px;
+    }
+    /* Top Bar */
+
+    /* Konten */
+    .table-datakaryawan table thead tr th, .table-datakaryawan table tbody tr td,
+    .table-modalbagian table thead tr th, .table-modalbagian table tbody tr td,
+    .table-modalextension table thead tr th, .table-modalextension table tbody tr td {
+        text-align: center;
+    }
+    /* Konten */
+
+    /* DATA KARYAWAN */
+/* ADMIN PAGE */
+
+/* TIM PENILAI PAGE */
+    /* Penilaian */
+    .table-penilaian thead tr th, .table-penilaian tbody tr td {
+        text-align: center;
+    }
+    .bg-penilaian {
+        border-radius: 10px;
+    }
+
+    .bg-penilaian pre {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #212529;
+    }
+
+    .bg-penilaian .quality, .bg-penilaian .total {
+        margin-bottom: -50px;
+    }
+
+    .bg-penilaian .form-group label {
+        font-size: 18px;
+    }
+    /* Penilaian */
+/* TIM PENILAI PAGE */
